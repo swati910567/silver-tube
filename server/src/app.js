@@ -15,8 +15,7 @@ app.use(cors({
 app.use(express.json({
     limit:"20kb"
 }))
-app.get("/",(req,res)=>{
-    res.json("Hello")})
+
 //now data from url
 app.use(express.urlencoded({extended:true,limit:"20kb"}))
 
