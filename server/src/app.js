@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import cookieParser from 'cookie-parser'//iska yahi kaam h ki
 //main user k browser se cookie ko access kr pau ar cookies set kr pau ar kuch operations laga pauu
-import morgan from "morgan";
+//import morgan from "morgan";
 
 const app=express()
 //use method sare middlewares k configuration me aata hai 
