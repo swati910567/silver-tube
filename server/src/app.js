@@ -7,7 +7,7 @@ import cookieParser from 'cookie-parser'//iska yahi kaam h ki
 const app=express()
 //use method sare middlewares k configuration me aata hai 
 app.use(cors({
-    origin:https://silver-tube-backend.onrender.com,
+    origin:process.env.CORS_ORIGIN,
     credentials:true,
 }))
 
